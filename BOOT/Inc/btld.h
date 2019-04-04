@@ -1,6 +1,7 @@
 /**
   ******************************************************************************
-  * STM32L4 Bootloader
+  * STM32 Bootloader
+  * This is inspired by : https://github.com/akospasztor/stm32-bootloader
   ******************************************************************************
   * @authors Akos Pasztor, Francois Rainville
   * @initial file   bootloader.h
