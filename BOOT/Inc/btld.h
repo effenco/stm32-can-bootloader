@@ -31,7 +31,7 @@
 #define APP_ADDRESS     (uint32_t)0x08008000    /* Start address of application space in flash */
 #define END_ADDRESS     (uint32_t)0x0803EFFF    /* End address of application space (addr. of last byte) */
 #define CRC_ADDRESS     (uint32_t)0x0803F000    /* Start address of application checksum in flash */
-#define SYSMEM_ADDRESS  (uint32_t)0x1FFF0000    /* Address of System Memory (ST Bootloader) */
+#define SYSMEM_ADDRESS  (uint32_t)0x1FFFD800    /* Address of System Memory (ST Bootloader) */
 
 /* MCU RAM size, used for checking accurately whether flash contains valid application */
 #define RAM_SIZE        (uint32_t)0x00008000	// 32 kB
